@@ -3,8 +3,8 @@ title: "Google TTSでPowerpointに音声ファイルを添付する"
 emoji: "📢"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googletts", "powerpoint", "vba", "windows"]
-published: false
-published_at: 2099-12-31 23:59 # 未来の日時を指定する
+published: true
+# published_at: 2099-12-31 23:59 # 未来の日時を指定する
 ---
 
 ## 概要
@@ -15,11 +15,11 @@ Microsoft365のPowerpointは動画作成も容易になっており，素晴ら�
   
 こんな感じでワンクリックで，スライドごとに設けられているノートを音声に変換することができます．
 
-![](../images/0001_google_tts/sample.gif)
+![](/images/0001_google_tts/sample.gif)
 
 リボンも実装していまして，入力タイプ（テキストかSSMLか），音声の性別，発話の速度，言語を選択することができます．
 
-![](../images/0001_google_tts/ribbon.png)
+![](/images/0001_google_tts/ribbon.png)
 
 これなら何回もやり直すことはできますし，何よりGoogleTTSは無料枠が大きいので，普通の使い方をしていれば**ほぼ無料**で利用することができます．
 
