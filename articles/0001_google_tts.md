@@ -1,5 +1,5 @@
 ---
-title: "Google TTSでPowerpointに音声ファイルを添付する"
+title: "vbaとGoogle TTSでPowerpointに音声ファイルを添付する"
 emoji: "📢"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googletts", "powerpoint", "vba", "windows"]
