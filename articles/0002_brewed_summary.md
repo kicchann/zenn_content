@@ -1,7 +1,7 @@
 ---
 title: "GPT-4oとGoogle Forms、GCPを使って動画要約アプリを開発しました"
 emoji: "🎥"
-type: "idea" # tech: 技術記事 / idea: アイデア
+type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GPT4o", "whisper", "GCP", "video"]
 published: true
 published_at: 2024-08-02 12:00 # 未来の日時を指定する
@@ -13,7 +13,7 @@ published_at: 2024-08-02 12:00 # 未来の日時を指定する
 しかしながら大抵の場合は単発利用はできず、サブスク契約やアカウント登録が必要です。  
 そこで、単発利用で手軽に試すことができる動画要約ツールをリリースしました。  
   
-[Brewed Summary](https://sites.google.com/view/brewed-summary/ja)  
+https://sites.google.com/view/brewed-summary/ja  
 
 手軽ではありますが、OpenAIのwhisperとGPT-4oを使って要約生成しているので、それなりの品質ではあるかと思います。  
 また、動画キャプチャを参照情報として使うことで、専門分野の内容にもある程度理解した上で要約できるようになっています。  
@@ -22,7 +22,7 @@ UIを作るのは得意ではありませんので、Google sitesとForms、要�
 
 使い方はこちらに整理しましたので、こちらを参照してください。
 
-[GPT-4oを使って300円で動画を要約できるアプリを作ってみた](https://note.com/kicchann/n/n5a9cab7fa5e8)
+https://note.com/kicchann/n/n5a9cab7fa5e8
 
 以下では、処理の内容について説明したいと思います。
 
