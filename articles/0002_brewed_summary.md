@@ -22,7 +22,7 @@ UIを作るのは得意ではありませんので、Google sitesとForms、要�
 
 使い方はこちらに整理しましたので、こちらを参照してください。
 
-[GPT-4oを使ってワンコインで動画を要約できるアプリを作ってみた](https://note.com/kicchann/n/n5a9cab7fa5e8)
+[GPT-4oを使って300円で動画を要約できるアプリを作ってみた](https://note.com/kicchann/n/n5a9cab7fa5e8)
 
 以下では、処理の内容について説明したいと思います。
 
