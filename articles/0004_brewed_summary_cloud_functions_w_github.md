@@ -1,6 +1,6 @@
 ---
 title: "GitHubからCloud Functionsに継続的にデプロイする"
-emoji: "✍"
+emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GitHub", "CloudFunctions", "GCP"]
 published: true

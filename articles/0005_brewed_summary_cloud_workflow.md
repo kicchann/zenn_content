@@ -1,6 +1,6 @@
 ---
 title: "Cloud StorageをトリガーにしてCloud Run jobsを実行する"
-emoji: "✍"
+emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GCP", "CloudRun", "CloudStorage", "workflows", "eventarc"]
 published: true
