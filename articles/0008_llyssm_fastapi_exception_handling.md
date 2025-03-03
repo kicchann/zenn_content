@@ -146,8 +146,6 @@ def custom_http_exception_handler(request: Request, exc: CustomHTTPException):
     )
 ```
 
-
-
 ## 例外処理の動作確認
 
 この状態で、`http://localhost:8080/exception`にアクセスすると、以下のようなレスポンスが返ってきます。
