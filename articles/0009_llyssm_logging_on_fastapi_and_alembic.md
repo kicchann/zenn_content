@@ -1,5 +1,5 @@
 ---
-title: "alembicをfastAPIで用いる場合にloggingを実装する場合の注意点"
+title: "alembicをfastAPIで用いる場合にlogging実装における注意点"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "fastAPI", "alembic", "logging"]
