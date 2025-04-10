@@ -80,7 +80,7 @@ def make_update_model(model_cls: type[BaseModel]) -> type[BaseModel]:
 
 この関数は、元のモデルのフィールドをすべて `Optional` に変換し、バリデーションを継承します。
 
-## 使い方
+## 使い方(API側)
 
 以下のように使います：
 
@@ -111,6 +111,36 @@ def test_update_model_validation():
     with pytest.raises(ValidationError):
         UserUpdate.model_validate({"name": "    "})  # name must not be empty → バリデーションエラー
 ```
+
+## 使い方(フロントエンド側)
+
+Pythonで UserBase をもとに UserUpdate を生成するのと同様に、TypeScript 側でも元の `User` 型に対して `Partial<User>` を使うことで、すべてのフィールドがOptionalな更新用の型を定義できます。
+
+```typescript
+// types.ts
+export type User = {
+  name: string;
+  age: number;
+};
+
+// 部分更新用の型
+export type UserUpdate = Partial<User>;
+```
+
+PUT リクエストでの実装例はこんな感じになります。
+
+```typescript
+// api.ts
+import axios from "axios";
+import type { UserUpdate } from "./types";
+
+export async function updateUser(userId: number, data: UserUpdate) {
+  const response = await axios.put(`/users/${userId}`, data);
+  return response.data;
+}
+```
+
+これで、Python側・TypeScript側ともに「部分更新用のOptionalモデル」を共通の設計思想で使うことができます。
 
 ## 参考
 
