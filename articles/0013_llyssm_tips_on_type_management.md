@@ -85,7 +85,7 @@ text_item.model_dump(exclude_unset=True)  # => {'description': 'foo'}  # item_ty
 
 と、`item_type`がデフォルト値のままなので、discriminatorに使うフィールドも除外されてしまいます。
 
-このとき、**Union/discriminatorで使うフィールド（例: marker_type）も除外される**ことがあり、  
+このとき、**Union/discriminatorで使うフィールド（`item_type`）も除外される**ことがあり、  
 DB保存やAPIレスポンスで「型情報が消える」→「復元時に型判別できない」  
 という問題が発生します。
 
@@ -93,7 +93,7 @@ DB保存やAPIレスポンスで「型情報が消える」→「復元時に型
 
 ## 解決策2-1: discriminatorフィールドは必ず明示的にセット
 
-- discriminatorで使うフィールド（例: marker_type）は**必ず明示的にセット**する
+- discriminatorで使うフィールド（例: `item_type`）は**必ず明示的にセット**する
 - `exclude_unset=True`を使う場合は、**型判別に必要なフィールドが除外されていないか注意**
 
 ## 解決策2-2: __init__で自動補完しておく
