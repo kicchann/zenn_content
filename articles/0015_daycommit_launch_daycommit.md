@@ -11,7 +11,7 @@ published: true
 Github Copilot Agentに教えてもらいながら、10日間でwebアプリ「DayCommit」を開発してみました。
 ![DayCommit](/images/0015_daycommit_launch_daycommit/001.png)
 
-本記事では、MVP設計やUIの悩み、リリースまでの課題、反省点、今後の展望についてまとめます。
+本記事では、DayCommitの概要、MVP開発の手順、感想などをまとめます。
 
 ## DayCommitとは
 
