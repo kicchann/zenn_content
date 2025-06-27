@@ -2,7 +2,7 @@
 title: "Copilot Agentと10日間で使い捨て予定表「DayCommit」を作ってみた"
 emoji: "👨‍👩‍👦"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["React", "Firebase", "Copilot", "Agent"]
+topics: ["React", "Firebase", "GithubCopilot", "Agent"]
 published: true
 ---
 
