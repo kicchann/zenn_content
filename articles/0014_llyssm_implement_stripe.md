@@ -2,7 +2,7 @@
 title: "FastAPI × Stripe Webhook でサブスクリプションを管理する"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: ["python", "stripe", "fastapi"]
 published: false
 ---
 
