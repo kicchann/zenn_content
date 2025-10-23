@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "TYPE_CHECKINGとPydanticのmodel_rebuild()の使い方まとめ"
 emoji: "🎉"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
